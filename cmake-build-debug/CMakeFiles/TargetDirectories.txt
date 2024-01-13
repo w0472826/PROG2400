@@ -1,0 +1,3 @@
+C:/Users/abbes/CLionProjects/PROG2400/cmake-build-debug/CMakeFiles/echo.dir
+C:/Users/abbes/CLionProjects/PROG2400/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/abbes/CLionProjects/PROG2400/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+# ninja log v5
+4	572	7268171479064553	CMakeFiles/echo.dir/echo/main.cpp.obj	5304c8c2feb05042
+573	915	7268171482425834	echo.exe	f387671adcb49766
+3	72	7268175978697850	CMakeFiles/echo.dir/echo/main.cpp.obj	5304c8c2feb05042
+9	513	7268175983104676	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	4b87d354f14ed0c3
+513	841	7268175986296244	echo.exe	fb85ea33306bcb99
+0	12	0	clean	12ad06bd113cafc6
+3	72	7268177706655619	CMakeFiles/echo.dir/echo/main.cpp.obj	5304c8c2feb05042
+8	468	7268177710600870	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	4b87d354f14ed0c3
+3	533	7268178308466143	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	4b87d354f14ed0c3
+536	848	7268178311549902	echo.exe	fb85ea33306bcb99
+3	510	7268182918098706	CMakeFiles/echo.dir/echo/main.cpp.obj	5304c8c2feb05042
+8	538	7268182918387680	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	4b87d354f14ed0c3
+539	880	7268182921731866	echo.exe	fb85ea33306bcb99
+3	509	7268183617846255	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	4b87d354f14ed0c3
+510	850	7268183621184373	echo.exe	fb85ea33306bcb99
