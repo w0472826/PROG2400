@@ -55,12 +55,6 @@ build CMakeFiles/echo.dir/echo/main.cpp.obj: CXX_COMPILER__echo_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\echo.dir
   OBJECT_FILE_DIR = CMakeFiles\echo.dir\echo
 
-build CMakeFiles/echo.dir/echo/echo_application.cpp.obj: CXX_COMPILER__echo_unscanned_Debug C$:/Users/abbes/CLionProjects/PROG2400/echo/echo_application.cpp || cmake_object_order_depends_target_echo
-  DEP_FILE = CMakeFiles\echo.dir\echo\echo_application.cpp.obj.d
-  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\echo.dir
-  OBJECT_FILE_DIR = CMakeFiles\echo.dir\echo
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target echo
@@ -69,7 +63,7 @@ build CMakeFiles/echo.dir/echo/echo_application.cpp.obj: CXX_COMPILER__echo_unsc
 #############################################
 # Link the executable echo.exe
 
-build echo.exe: CXX_EXECUTABLE_LINKER__echo_Debug CMakeFiles/echo.dir/echo/main.cpp.obj CMakeFiles/echo.dir/echo/echo_application.cpp.obj
+build echo.exe: CXX_EXECUTABLE_LINKER__echo_Debug CMakeFiles/echo.dir/echo/main.cpp.obj
   FLAGS = -static -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\echo.dir
@@ -78,6 +72,138 @@ build echo.exe: CXX_EXECUTABLE_LINKER__echo_Debug CMakeFiles/echo.dir/echo/main.
   TARGET_FILE = echo.exe
   TARGET_IMPLIB = libecho.dll.a
   TARGET_PDB = echo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target command_line
+
+
+#############################################
+# Order-only phony target for command_line
+
+build cmake_object_order_depends_target_command_line: phony || CMakeFiles/command_line.dir
+
+build CMakeFiles/command_line.dir/command_line/main.cpp.obj: CXX_COMPILER__command_line_unscanned_Debug C$:/Users/abbes/CLionProjects/PROG2400/command_line/main.cpp || cmake_object_order_depends_target_command_line
+  DEP_FILE = CMakeFiles\command_line.dir\command_line\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\command_line.dir
+  OBJECT_FILE_DIR = CMakeFiles\command_line.dir\command_line
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target command_line
+
+
+#############################################
+# Link the executable command_line.exe
+
+build command_line.exe: CXX_EXECUTABLE_LINKER__command_line_Debug CMakeFiles/command_line.dir/command_line/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\command_line.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = command_line.exe
+  TARGET_IMPLIB = libcommand_line.dll.a
+  TARGET_PDB = command_line.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stringstreams
+
+
+#############################################
+# Order-only phony target for stringstreams
+
+build cmake_object_order_depends_target_stringstreams: phony || CMakeFiles/stringstreams.dir
+
+build CMakeFiles/stringstreams.dir/stringstreams/main.cpp.obj: CXX_COMPILER__stringstreams_unscanned_Debug C$:/Users/abbes/CLionProjects/PROG2400/stringstreams/main.cpp || cmake_object_order_depends_target_stringstreams
+  DEP_FILE = CMakeFiles\stringstreams.dir\stringstreams\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stringstreams.dir
+  OBJECT_FILE_DIR = CMakeFiles\stringstreams.dir\stringstreams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stringstreams
+
+
+#############################################
+# Link the executable stringstreams.exe
+
+build stringstreams.exe: CXX_EXECUTABLE_LINKER__stringstreams_Debug CMakeFiles/stringstreams.dir/stringstreams/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stringstreams.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stringstreams.exe
+  TARGET_IMPLIB = libstringstreams.dll.a
+  TARGET_PDB = stringstreams.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointers
+
+
+#############################################
+# Order-only phony target for pointers
+
+build cmake_object_order_depends_target_pointers: phony || CMakeFiles/pointers.dir
+
+build CMakeFiles/pointers.dir/pointers/main.cpp.obj: CXX_COMPILER__pointers_unscanned_Debug C$:/Users/abbes/CLionProjects/PROG2400/pointers/main.cpp || cmake_object_order_depends_target_pointers
+  DEP_FILE = CMakeFiles\pointers.dir\pointers\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers.dir\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers
+
+
+#############################################
+# Link the executable pointers.exe
+
+build pointers.exe: CXX_EXECUTABLE_LINKER__pointers_Debug CMakeFiles/pointers.dir/pointers/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointers.exe
+  TARGET_IMPLIB = libpointers.dll.a
+  TARGET_PDB = pointers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector
+
+
+#############################################
+# Order-only phony target for vector
+
+build cmake_object_order_depends_target_vector: phony || CMakeFiles/vector.dir
+
+build CMakeFiles/vector.dir/vector/main.cpp.obj: CXX_COMPILER__vector_unscanned_Debug C$:/Users/abbes/CLionProjects/PROG2400/vector/main.cpp || cmake_object_order_depends_target_vector
+  DEP_FILE = CMakeFiles\vector.dir\vector\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector.dir\vector
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector
+
+
+#############################################
+# Link the executable vector.exe
+
+build vector.exe: CXX_EXECUTABLE_LINKER__vector_Debug CMakeFiles/vector.dir/vector/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector.exe
+  TARGET_IMPLIB = libvector.dll.a
+  TARGET_PDB = vector.exe.dbg
 
 
 #############################################
@@ -105,7 +231,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build command_line: phony command_line.exe
+
 build echo: phony echo.exe
+
+build pointers: phony pointers.exe
+
+build stringstreams: phony stringstreams.exe
+
+build vector: phony vector.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +249,7 @@ build echo: phony echo.exe
 #############################################
 # Folder: C:/Users/abbes/CLionProjects/PROG2400/cmake-build-debug
 
-build all: phony echo.exe
+build all: phony echo.exe command_line.exe stringstreams.exe pointers.exe vector.exe
 
 # =============================================================================
 # Built-in targets
